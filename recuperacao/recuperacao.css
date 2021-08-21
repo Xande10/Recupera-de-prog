@@ -1,0 +1,40 @@
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=radio]:focus {
+    background-color: lightblue;
+}
+select {
+    padding: 15px 19px;
+    border: none;
+    border-radius: 3px;
+    background-color: silver;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset{
+    background-color: black;
+    color: white;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+}
